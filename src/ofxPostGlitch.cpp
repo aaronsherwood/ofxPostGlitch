@@ -41,7 +41,7 @@ void ofxPostGlitch::generateFx(){
 	v[0] = ofRandom(3);v[1] = ofRandom(3);
 	if (ofGetFrameNum() % step == 0){
 		step = ofRandom(10,30);
-		ShadeVal[0] = ofRandom(100);
+		ShadeVal[1] = ofRandom(100);
 		ShadeVal[2] = ofRandom(100);
 		ShadeVal[3] = ofRandom(100);
 	}

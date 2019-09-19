@@ -56,8 +56,8 @@ void testApp::draw(){
 	myFbo.draw(0, 0);
 
 	/* Apply effects */
-    myGlitch.ShadeVal[0]=ofMap(mouseX, 0, ofGetWidth(), 0., 1.);
-    myGlitch.ShadeVal[0]= ofClamp(myGlitch.ShadeVal[0],0.,1.);
+    myGlitch.ShadeVal[3]=ofMap(mouseX, 0, ofGetWidth(), 0., 1.);
+    myGlitch.ShadeVal[3]= ofClamp(myGlitch.ShadeVal[0],0.,1.);
     cout<<myGlitch.ShadeVal[0]<<endl;
 	myGlitch.generateFx();
 
